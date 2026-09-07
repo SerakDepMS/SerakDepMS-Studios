@@ -1,4 +1,4 @@
-# 👨‍💻 SerakDepMS | Full Stack Developer & Software Engineer
+#  SerakDepMS | Full Stack Developer & Software Engineer
 
 <p align="center">
   <img src="assets/images/profile.gif" alt="SerakDepMS" width="120" style="border-radius: 50%;">
@@ -9,7 +9,7 @@ Apasionado por el software como solución a problemas reales. Me especializo en 
 
 ---
 
-## 🌐 Enlaces principales
+## Enlaces principales
 
 - **Portafolio en vivo:** [serakdepms.github.io/SerakDepMS-Studios](https://serakdepms.github.io/SerakDepMS-Studios/)
 - **GitHub:** [github.com/SerakDepMS](https://github.com/SerakDepMS)
@@ -19,7 +19,7 @@ Apasionado por el software como solución a problemas reales. Me especializo en 
 
 ---
 
-## 🧠 Filosofía de trabajo
+## Filosofía de trabajo
 
 > *"Using software as a solution for every problem, driven by clean code, continuous learning, and robust architectural design."*
 
@@ -27,7 +27,7 @@ Creo en el código limpio, el aprendizaje constante y la arquitectura bien pensa
 
 ---
 
-## 🛠️ Tecnologías que domino
+## Tecnologías que domino
 
 - **Lenguajes:** JavaScript, TypeScript, Python, Rust, Go, Java, C++, PHP, Ruby, Swift, Kotlin, y más.
 - **Frontend:** React, Next.js, Vue, Svelte, Tailwind, Sass.
@@ -38,7 +38,7 @@ Creo en el código limpio, el aprendizaje constante y la arquitectura bien pensa
 
 ---
 
-## 📫 ¿Hablamos?
+## ¿Hablamos?
 
 Si buscas un desarrollador comprometido con la calidad técnica y la resolución de problemas, estoy abierto a colaboraciones, proyectos freelance o simplemente una charla sobre tecnología.
 
