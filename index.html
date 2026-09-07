@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SerakDepMS | Full Stack Developer & Software Engineer</title>
+    <meta name="description" content="Portafolio de SerakDepMS, Full Stack Developer y estudiante de Ciencias de la Computación. Proyectos, stack técnico y experiencia en desarrollo de software.">
+    <meta property="og:title" content="SerakDepMS | Full Stack Developer & Software Engineer">
+    <meta property="og:description" content="Portafolio de SerakDepMS, Full Stack Developer y estudiante de Ciencias de la Computación. Proyectos, stack técnico y experiencia en desarrollo de software.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://serakdepms.github.io/SerakDepMS-Studios/">
+    <!-- TODO: crea un banner propio de 1200x630px (og-banner.jpg) en vez de reusar el gif de perfil como preview de redes -->
+    <meta property="og:image" content="assets/images/og-banner.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SerakDepMS | Full Stack Developer & Software Engineer">
+    <meta name="twitter:description" content="Portafolio de SerakDepMS, Full Stack Developer y estudiante de Ciencias de la Computación.">
+    <meta name="twitter:image" content="assets/images/og-banner.jpg">
+    <meta name="theme-color" content="#0a0a0a">
+    <link rel="canonical" href="https://serakdepms.github.io/SerakDepMS-Studios/">
+
+<link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+
+
+<link rel="manifest" href="assets/favicon/site.webmanifest">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "SerakDepMS",
+  "jobTitle": "Full Stack Developer & Software Engineer",
+  "description": "Full Stack Developer y estudiante de Ciencias de la Computación, especializado en desarrollo web, arquitectura de software y sistemas operativos.",
+  "url": "https://serakdepms.github.io/SerakDepMS-Studios/",
+  "image": "https://serakdepms.github.io/SerakDepMS-Studios/assets/images/profile.gif",
+  "knowsAbout": ["JavaScript", "TypeScript", "Python", "Rust", "Go", "Full Stack Development", "Software Architecture", "Operating Systems"],
+  "sameAs": [
+    "https://github.com/SerakDepMS"
+  ]
+}
+</script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Analítica de visitas (Plausible: ligero, sin cookies, no requiere banner de consentimiento).
+         Crea una cuenta gratuita/self-hosted en https://plausible.io, reemplaza "tu-dominio.com"
+         por tu dominio real y descomenta la línea. Alternativa: Google Analytics (gtag.js). -->
+    <!-- <script defer data-domain="tu-dominio.com" src="https://plausible.io/js/script.js"></script> -->
+</head>
+<body>
+
+    <noscript>
+        <style>
+            #loader { display: none !important; }
+            .hero-content, .hero-image, .about-content, .about-image, .service-card,
+            .project-card, .cta-wrapper, .manifesto-card, .timeline-item, .arch-card {
+                opacity: 1 !important;
+                transform: none !important;
+            }
+        </style>
+    </noscript>
+
+    <div id="loader">
+        <div class="loader-content">
+            <i class="fa-solid fa-code fa-spin"></i>
+            <span>Loading Experience...</span>
+        </div>
+    </div>
+
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-halo" id="cursor-halo"></div>
+
+    <button id="scroll-top" class="scroll-top-btn" aria-label="Ir arriba">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-mark">&lt;SDM<span class="logo-blink">/</span>&gt;</span>
+        </div>
+        <div class="menu-toggle" id="mobile-menu" aria-label="Abrir menú">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home" class="active">HOME</a></li>
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#timeline">TRAYECTORIA</a></li>
+            <li><a href="#architecture">SISTEMAS</a></li>
+            <li><a href="#expertise">TECH STACK</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="hero section-padding">
+            <div class="hero-content">
+                <p class="greeting">Hi, I'm SerakDepMS</p>
+                <h1 class="name">FULL STACK DEVELOPER</h1>
+                <p class="description">Software Engineer and Computer Science Student. Passionate about building scalable applications and using software as a solution for every problem.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="#projects" class="btn btn-outline">View Projects</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper red-bg-right">
+                    <img src="assets/images/profile.gif" alt="SerakDepMS Animation" loading="lazy" width="500" height="355">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section-padding">
+            <div class="about-image">
+                <div class="image-wrapper red-bg-left">
+                    <img src="assets/images/workspace.jpg" alt="Workspace" loading="lazy" width="564" height="734">
+                </div>
+            </div>
+            <div class="about-content">
+                <p class="section-subtitle"><i class="fa-solid fa-minus"></i> About me</p>
+                <h2 class="section-title">Who Am I</h2>
+                <p class="about-text">
+                    I am a Full Stack Developer with extensive knowledge across multiple programming domains. Currently learning Computer Science and Software Engineering, I am proficient in both Frontend and Backend development with deep understanding of modern frameworks. Always learning new things, I love using software as a solution for every problem.
+                </p>
+                <div class="achievements-list">
+                    <div class="achievement-badge"><i class="fa-solid fa-layer-group"></i> Full Stack Expert</div>
+                    <div class="achievement-badge"><i class="fa-solid fa-terminal"></i> 130+ OS Expertise</div>
+                    <div class="achievement-badge"><i class="fa-solid fa-graduation-cap"></i> CS Student</div>
+                </div>
+                <a href="#contact" class="btn btn-primary">Get in Touch</a>
+            </div>
+        </section>
+
+        <section class="manifesto-section section-padding">
+            <div class="manifesto-card">
+                <div class="manifesto-icon"><i class="fa-solid fa-terminal"></i></div>
+                <h3>Engineering Philosophy</h3>
+                <p class="code-font">"Using software as a solution for every problem, driven by clean code, continuous learning, and robust architectural design."</p>
+                <span class="manifesto-author">-SerakDepMS Core Principle</span>
+            </div>
+        </section>
+
+        <section id="timeline" class="timeline-section section-padding">
+            <div class="section-header">
+                <p class="section-subtitle"><i class="fa-solid fa-minus"></i> Roadmap</p>
+                <h2 class="section-title">Academic & Engineering Journey</h2>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Presente</span>
+                        <h3>Advanced Full Stack & Software Engineering</h3>
+                        <p>Desarrollo de aplicaciones escalables, gestión avanzada de bases de datos y despliegue en entornos cloud.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">En Progreso</span>
+                        <h3>Computer Science Studies</h3>
+                        <p>Profundización en estructuras de datos, algoritmos complejos, arquitecturas de software y control de sistemas.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Especialización</span>
+                        <h3>Multi-Domain Systems & 130+ OS Mastery</h3>
+                        <p>Investigación y dominio cruzado de más de 100 distribuciones Linux, entornos Unix/BSD y arquitecturas móviles.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="architecture" class="architecture-section section-padding">
+            <div class="section-header">
+                <p class="section-subtitle"><i class="fa-solid fa-minus"></i> Deep Dive</p>
+                <h2 class="section-title">Systems & Architecture Passions</h2>
+            </div>
+            <div class="arch-container">
+                <div class="arch-card">
+                    <i class="fa-solid fa-microchip arch-icon"></i>
+                    <h3>130+ Operating Systems</h3>
+                    <p>Investigación profunda de núcleos, gestión de memoria y optimización a nivel de bajo nivel en más de 100 distribuciones Linux, entornos Unix/BSD y arquitecturas móviles.</p>
+                </div>
+                <div class="arch-card">
+                    <i class="fa-solid fa-gauge-high arch-icon"></i>
+                    <h3>Code Optimization & Research</h3>
+                    <p>Análisis riguroso de rendimiento, concurrencia y diseño de arquitecturas robustas orientadas a la máxima eficiencia del software.</p>
+                </div>
+            </div>
+
+            <div class="languages-showcase">
+                <h3>Multi-Paradigm Programming Ecosystem</h3>
+                <div class="lang-scroll-container">
+                    <div class="lang-track">
+                        <div class="lang-item"><i class="fa-solid fa-c"></i><span>C</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-code"></i><span>C++</span></div>
+                        <div class="lang-item"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-laptop-code"></i><span>TypeScript</span></div>
+                        <div class="lang-item"><i class="fa-brands fa-golang"></i><span>Go</span></div>
+                        <div class="lang-item"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                        <div class="lang-item"><i class="fa-brands fa-java"></i><span>Java</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-cube"></i><span>Rust</span></div>
+                        <div class="lang-item"><i class="fa-brands fa-php"></i><span>PHP</span></div>
+                        <div class="lang-item"><i class="fa-brands fa-swift"></i><span>Swift</span></div>
+                        <div class="lang-item"><i class="fa-brands fa-kotlin"></i><span>Kotlin</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-hashtag"></i><span>C#</span></div>
+                        <div class="lang-item"><i class="fa-brands fa-ruby"></i><span>Ruby</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-gem"></i><span>Scala</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-droplet"></i><span>Elixir</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-feather"></i><span>Dart</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-terminal"></i><span>Bash / Shell</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-database"></i><span>SQL</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-moon"></i><span>Lua</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-brain"></i><span>Haskell</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-microchip"></i><span>Assembly</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-file-code"></i><span>Perl</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-chart-line"></i><span>R</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-bolt"></i><span>Julia</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-coins"></i><span>Solidity</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-dharmachakra"></i><span>OCaml</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-square-root-variable"></i><span>MATLAB</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-window-maximize"></i><span>PowerShell</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-network-wired"></i><span>Clojure</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-server"></i><span>Erlang</span></div>
+                        
+                        <div class="lang-item"><i class="fa-solid fa-c"></i><span>C</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-code"></i><span>C++</span></div>
+                        <div class="lang-item"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-laptop-code"></i><span>TypeScript</span></div>
+                        <div class="lang-item"><i class="fa-brands fa-golang"></i><span>Go</span></div>
+                        <div class="lang-item"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                        <div class="lang-item"><i class="fa-brands fa-java"></i><span>Java</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-cube"></i><span>Rust</span></div>
+                        <div class="lang-item"><i class="fa-brands fa-php"></i><span>PHP</span></div>
+                        <div class="lang-item"><i class="fa-brands fa-swift"></i><span>Swift</span></div>
+                        <div class="lang-item"><i class="fa-brands fa-kotlin"></i><span>Kotlin</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-hashtag"></i><span>C#</span></div>
+                        <div class="lang-item"><i class="fa-brands fa-ruby"></i><span>Ruby</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-gem"></i><span>Scala</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-droplet"></i><span>Elixir</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-feather"></i><span>Dart</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-terminal"></i><span>Bash / Shell</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-database"></i><span>SQL</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-moon"></i><span>Lua</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-brain"></i><span>Haskell</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-microchip"></i><span>Assembly</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-file-code"></i><span>Perl</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-chart-line"></i><span>R</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-bolt"></i><span>Julia</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-coins"></i><span>Solidity</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-dharmachakra"></i><span>OCaml</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-square-root-variable"></i><span>MATLAB</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-window-maximize"></i><span>PowerShell</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-network-wired"></i><span>Clojure</span></div>
+                        <div class="lang-item"><i class="fa-solid fa-server"></i><span>Erlang</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="expertise" class="services section-padding">
+            <div class="section-header">
+                <p class="section-subtitle"><i class="fa-solid fa-minus"></i> Capabilities</p>
+                <h2 class="section-title">Technical Expertise & Tools</h2>
+            </div>
+            
+            <div class="services-container">
+                <div class="service-card">
+                    <i class="fa-solid fa-code service-icon"></i>
+                    <h3>Programming Languages</h3>
+                    <p>Proficient across multiple paradigms: C, C++, JavaScript/TypeScript, Java, Python, Dart, Go, Ruby, PHP, Swift, Rust, Kotlin, Scala, Elixir, C#, and more.</p>
+                    <div class="tech-pills">
+                        <span>C++</span><span>Python</span><span>Rust</span><span>Go</span><span>Java</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-desktop service-icon"></i>
+                    <h3>Frontend Development</h3>
+                    <p>React, Angular, Vue.js, Svelte, Next.js, Nuxt.js, Gatsby, HTML5, CSS3, Webpack, Vite, Redux, Tailwind, Sass.</p>
+                    <div class="tech-pills">
+                        <span>React</span><span>Next.js</span><span>Tailwind</span><span>Vue</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-server service-icon"></i>
+                    <h3>Backend & APIs</h3>
+                    <p>Node.js, Express, Python (Django, Flask, FastAPI), Java (Spring Boot), PHP (Laravel), Go (Gin, Echo), Rust (Actix, Rocket), GraphQL, gRPC.</p>
+                    <div class="tech-pills">
+                        <span>Node.js</span><span>FastAPI</span><span>Spring Boot</span><span>GraphQL</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-database service-icon"></i>
+                    <h3>Databases & Storage</h3>
+                    <p>PostgreSQL, MySQL, MongoDB, Redis, Firebase, Cassandra, Elasticsearch, SQLite, MariaDB.</p>
+                    <div class="tech-pills">
+                        <span>PostgreSQL</span><span>MongoDB</span><span>Redis</span><span>Firebase</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-cloud-arrow-up service-icon"></i>
+                    <h3>DevOps & Cloud</h3>
+                    <p>Docker, Kubernetes, AWS, Azure, GCP, CI/CD (GitHub Actions, Jenkins), Terraform, Nginx, Apache, Kafka, RabbitMQ.</p>
+                    <div class="tech-pills">
+                        <span>Docker</span><span>Kubernetes</span><span>AWS</span><span>Terraform</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-terminal service-icon"></i>
+                    <h3>Operating Systems (130+)</h3>
+                    <p>Deep cross-system mastery across 100+ Linux distributions, mobile architectures (Android/iOS ROMs), Windows systems, and Unix/BSD environments.</p>
+                    <div class="tech-pills">
+                        <span>Linux (100+)</span><span>Unix/BSD</span><span>Android/iOS</span><span>Windows</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section-padding">
+            <div class="section-header">
+                <p class="section-subtitle"><i class="fa-solid fa-minus"></i> Portfolio</p>
+                <h2 class="section-title">Popular Repositories</h2>
+                
+                <div class="filter-container">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="herramientas">Herramientas</button>
+                    <button class="filter-btn" data-filter="comunidad">Comunidad</button>
+                    <button class="filter-btn" data-filter="seguridad">Seguridad</button>
+                </div>
+            </div>
+            
+            <div class="projects-container">
+                <div class="project-card" data-category="herramientas" data-project="matrix" tabindex="0" role="button" aria-label="Ver detalles de calculadora-de-matrices">
+                    <div class="project-img">
+                        <img src="assets/images/calculadora.png" alt="Calculadora de Matrices" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category-badge cat-herramientas"><i class="fa-solid fa-wrench"></i> Herramientas</span>
+                        <p class="project-tech">HTML &bull; CSS &bull; JavaScript</p>
+                        <h3>calculadora-de-matrices</h3>
+                        <p class="project-desc">Herramienta interactiva desarrollada en JavaScript para el cálculo y resolución de matrices.</p>
+                        <div class="project-actions">
+                            <button class="btn-details">Ver detalles <i class="fa-solid fa-arrow-right"></i></button>
+                            <div class="project-links">
+                                <a href="https://github.com/SerakDepMS/calculadora-de-matrices" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://serakdepms.github.io/calculadora-de-matrices/" target="_blank" aria-label="Live Demo"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="comunidad" data-project="clan" tabindex="0" role="button" aria-label="Ver detalles de Serakdep-MS-Clan-Official">
+                    <div class="project-img">
+                        <img src="assets/images/clan.png" alt="Clan Official" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category-badge cat-comunidad"><i class="fa-solid fa-users"></i> Comunidad</span>
+                        <p class="project-tech">HTML &bull; CSS &bull; JavaScript</p>
+                        <h3>Serakdep-MS-Clan-Official</h3>
+                        <p class="project-desc">Plataforma oficial de comunidad y clan enfocada en la interacción digital y web.</p>
+                        <div class="project-actions">
+                            <button class="btn-details">Ver detalles <i class="fa-solid fa-arrow-right"></i></button>
+                            <div class="project-links">
+                                <a href="https://github.com/SerakDepMS/Serakdep-MS-Clan-Official" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://serakdepms.github.io/Serakdep-MS-Clan-Official/" target="_blank" aria-label="Live Demo"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="seguridad" data-project="terminal" tabindex="0" role="button" aria-label="Ver detalles de Crypt-Terminal">
+                    <div class="project-img">
+                        <img src="assets/images/terminal.png" alt="Crypt Terminal" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category-badge cat-seguridad"><i class="fa-solid fa-shield-halved"></i> Seguridad</span>
+                        <p class="project-tech">HTML &bull; CSS &bull; JavaScript</p>
+                        <h3>Crypt-Terminal</h3>
+                        <p class="project-desc">Interfaz de simulación de terminal enfocada en criptografía y herramientas web.</p>
+                        <div class="project-actions">
+                            <button class="btn-details">Ver detalles <i class="fa-solid fa-arrow-right"></i></button>
+                            <div class="project-links">
+                                <a href="https://github.com/SerakDepMS/Crypt-Terminal" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://serakdepms.github.io/Crypt-Terminal/" target="_blank" aria-label="Live Demo"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="comunidad" data-project="social" tabindex="0" role="button" aria-label="Ver detalles de red-social-beta">
+                    <div class="project-img">
+                        <img src="assets/images/social.png" alt="Red Social Beta" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category-badge cat-comunidad"><i class="fa-solid fa-users"></i> Comunidad</span>
+                        <p class="project-tech">Beta &bull; HTML &bull; CSS &bull; JavaScript</p>
+                        <h3>red-social-beta</h3>
+                        <p class="project-desc">Prototipo experimental de red social diseñado para explorar dinámicas de interacción de usuarios y flujos de datos en el cliente.</p>
+                        <div class="project-actions">
+                            <button class="btn-details">Ver detalles <i class="fa-solid fa-arrow-right"></i></button>
+                            <div class="project-links">
+                                <a href="https://github.com/SerakDepMS/red-social-beta" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://serakdepms.github.io/red-social-beta/" target="_blank" aria-label="Live Demo"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-body-content">
+        <div class="modal-container">
+            <button class="close-modal" id="close-modal" aria-label="Cerrar detalles del proyecto">&times;</button>
+            <div class="modal-body" id="modal-body-content"></div>
+        </div>
+    </div>
+
+    <footer id="contact" class="cta section-padding">
+        <div class="cta-wrapper">
+            <div class="cta-content">
+                <h2>Let's build software as a solution<br><span>for every problem.</span></h2>
+                <p>Always learning new things. Reach out for full-stack development, software engineering, or technical collaboration via GitHub or WhatsApp.</p>
+                <div class="social-links">
+                    <a href="https://github.com/SerakDepMS" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://wa.me/573116546484?text=Hola%20SerakDepMS,%20estoy%20interesado%20en%20tus%20servicios%20de%20desarrollo." target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="cta-button">
+                <a href="https://wa.me/573116546484?text=Hola%20SerakDepMS,%20estoy%20interesado%20en%20tus%20servicios%20de%20desarrollo." target="_blank" class="btn btn-primary btn-large">Chat on WhatsApp <i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SerakDepMS Studios. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
