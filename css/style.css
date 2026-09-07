@@ -23,8 +23,6 @@ body {
 }
 body.modal-open { overflow: hidden; }
 
-/* Estado inicial de los elementos animados al hacer scroll, definido en CSS
-   para que no haya parpadeo (FOUC) mientras carga el JS */
 .hero-content, .hero-image, .about-content, .about-image, .service-card,
 .project-card, .cta-wrapper, .manifesto-card, .timeline-item, .arch-card {
     opacity: 0;
