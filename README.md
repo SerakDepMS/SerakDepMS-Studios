@@ -1,51 +1,51 @@
-#  SerakDepMS | Full Stack Developer & Software Engineer
+# SDMS | Serak Digital Mastery & Solutions
 
 <p align="center">
-  <img src="assets/images/profile.gif" alt="SerakDepMS" width="120" style="border-radius: 50%;">
+  <img src="assets/images/profile.gif" alt="SDMS Ecosystem" width="120" style="border-radius: 50%;">
 </p>
 
-**Hola, soy SerakDepMS** — desarrollador Full Stack y estudiante de Ciencias de la Computación.  
-Apasionado por el software como solución a problemas reales. Me especializo en arquitecturas escalables, optimización de sistemas y diseño de experiencias digitales funcionales.
+**Hello, I am SDMS (SerakDepMS)** — Full Stack Architect and Cybersecurity Expert.  
+Passionate about transforming complex problems into secure, scalable, and high-performance digital ecosystems. I specialize in system architectures, zero-trust security, and absolute mastery over infrastructure.
 
 ---
 
-## Enlaces principales
+##  Active Terminals
 
-- **Portafolio en vivo:** [serakdepms.github.io/SerakDepMS-Studios](https://serakdepms.github.io/SerakDepMS-Studios/)
-- **GitHub:** [github.com/SerakDepMS](https://github.com/SerakDepMS)
-- **WhatsApp:** [Escríbeme](https://wa.me/573116546484?text=Hola%20SerakDepMS,%20estoy%20interesado%20en%20tus%20servicios%20de%20desarrollo.)
-- **LinkedIn:** [linkedin.com/in/tu-perfil](https://linkedin.com/in/tu-perfil) *(actualiza con tu URL real)*
-- **Twitter / X:** [twitter.com/tu-usuario](https://twitter.com/tu-usuario) *(actualiza con tu URL real)*
-
----
-
-## Filosofía de trabajo
-
-> *"Using software as a solution for every problem, driven by clean code, continuous learning, and robust architectural design."*
-
-Creo en el código limpio, el aprendizaje constante y la arquitectura bien pensada como pilares para construir aplicaciones que realmente marquen la diferencia.
+- **Live Operations (Portfolio):** [serakdepms.github.io/SerakDepMS-Studios](https://serakdepms.github.io/SerakDepMS-Studios/)
+- **GitHub Repository:** [github.com/SerakDepMS](https://github.com/SerakDepMS)
+- **Secure Comms (WhatsApp):** [Initialize Chat](https://wa.me/573116546484?text=Hello%20SDMS,%20I%20need%20software%20architecture%20and%20development.)
+- **LinkedIn Network:** [linkedin.com/in/tu-perfil](https://linkedin.com/in/tu-perfil) *(update with your real URL)*
+- **X / Twitter Terminal:** [twitter.com/tu-usuario](https://twitter.com/tu-usuario) *(update with your real URL)*
 
 ---
 
-## Tecnologías que domino
+##  Core Directive
 
-- **Lenguajes:** JavaScript, TypeScript, Python, Rust, Go, Java, C++, PHP, Ruby, Swift, Kotlin, y más.
-- **Frontend:** React, Next.js, Vue, Svelte, Tailwind, Sass.
-- **Backend:** Node.js, FastAPI, Spring Boot, Laravel, Gin, GraphQL, gRPC.
-- **Bases de datos:** PostgreSQL, MongoDB, Redis, Firebase, MySQL.
-- **DevOps:** Docker, Kubernetes, AWS, Azure, Terraform, GitHub Actions.
-- **Sistemas operativos:** dominio práctico de más de 130 distribuciones Linux, entornos Unix/BSD y arquitecturas móviles.
+> *"I don't just write code: I design digital ecosystems built to scale, perform at the highest level, and withstand any tactical vulnerability."*
+
+I believe in security by design, continuous learning, and rigorous architectural planning as the foundational pillars to build applications that dominate the digital space.
 
 ---
 
-## ¿Hablamos?
+##  Technical Arsenal
 
-Si buscas un desarrollador comprometido con la calidad técnica y la resolución de problemas, estoy abierto a colaboraciones, proyectos freelance o simplemente una charla sobre tecnología.
+- **Core Languages:** C/C++, JavaScript/TypeScript, Python, Rust, Go, Java, Swift, Kotlin, Assembly, and more.
+- **Frontend Interfaces:** React, Next.js, Vue, Svelte, Tailwind CSS, Sass.
+- **Backend Architecture:** Node.js, FastAPI, Spring Boot, Laravel, Gin, GraphQL, gRPC.
+- **Data & Memory:** PostgreSQL, MongoDB, Redis, Elasticsearch, Firebase, Cassandra.
+- **DevSecOps & Cloud:** Docker, Kubernetes, AWS, Azure, Terraform, GitHub Actions.
+- **Operating Systems (130+):** Forensic analysis and cross-control of over 100 Linux distributions, Unix/BSD environments, and integrated mobile architectures.
 
-- **WhatsApp:** [Haz clic aquí](https://wa.me/573116546484?text=Hola%20SerakDepMS,%20estoy%20interesado%20en%20tus%20servicios%20de%20desarrollo.)
+---
+
+##  Initialize Collaboration Sequence
+
+Looking to secure your architecture, optimize servers, or build a digital ecosystem from scratch? I am open to technical collaborations, freelance operations, or high-level tech discussions.
+
+- **WhatsApp:** [Encrypt Message Here](https://wa.me/573116546484?text=Hello%20SDMS,%20I%20need%20software%20architecture%20and%20development.)
 
 ---
 
 <p align="center">
-  <i>“Construyendo software como solución, un commit a la vez.”</i>
+  <i>“Deploying secure ecosystems, one tactical commit at a time.”</i>
 </p>
