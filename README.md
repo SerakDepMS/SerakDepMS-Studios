@@ -1,7 +1,7 @@
-# SDMS | Serak Digital Mastery & Solutions
+# SerakDepMS | Serak Digital Mastery & Solutions
 
 <p align="center">
-  <img src="assets/images/profile.gif" alt="SDMS Ecosystem" width="120" style="border-radius: 50%;">
+  <img src="assets/images/profile.gif" alt="SerakDepMS Ecosystem" width="120" style="border-radius: 50%;">
 </p>
 
 **Hello, I am SDMS (SerakDepMS)** — Full Stack Architect and Cybersecurity Expert.  
@@ -13,7 +13,7 @@ Passionate about transforming complex problems into secure, scalable, and high-p
 
 - **Live Operations (Portfolio):** [serakdepms.github.io/SerakDepMS-Studios](https://serakdepms.github.io/SerakDepMS-Studios/)
 - **GitHub Repository:** [github.com/SerakDepMS](https://github.com/SerakDepMS)
-- **Secure Comms (WhatsApp):** [Initialize Chat](https://wa.me/573116546484?text=Hello%20SDMS,%20I%20need%20software%20architecture%20and%20development.)
+- **Secure Comms (WhatsApp):** [Initialize Chat](https://wa.me/573116546484?text=Hello%20SerakDepMS,%20I%20need%20software%20architecture%20and%20development.)
 - **LinkedIn Network:** [linkedin.com/in/tu-perfil](https://linkedin.com/in/tu-perfil) *(update with your real URL)*
 - **X / Twitter Terminal:** [twitter.com/tu-usuario](https://twitter.com/tu-usuario) *(update with your real URL)*
 
@@ -42,7 +42,7 @@ I believe in security by design, continuous learning, and rigorous architectural
 
 Looking to secure your architecture, optimize servers, or build a digital ecosystem from scratch? I am open to technical collaborations, freelance operations, or high-level tech discussions.
 
-- **WhatsApp:** [Encrypt Message Here](https://wa.me/573116546484?text=Hello%20SDMS,%20I%20need%20software%20architecture%20and%20development.)
+- **WhatsApp:** [Encrypt Message Here](https://wa.me/573116546484?text=Hello%20SerakDepMS,%20I%20need%20software%20architecture%20and%20development.)
 
 ---
 
