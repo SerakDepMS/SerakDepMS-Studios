@@ -36,7 +36,7 @@ I believe in security by design, continuous learning, and rigorous architectural
 - **Backend Architecture:** Node.js, FastAPI, Spring Boot, Laravel, Gin, GraphQL, gRPC.
 - **Data & Memory:** PostgreSQL, MongoDB, Redis, Elasticsearch, Firebase, Cassandra.
 - **DevSecOps & Cloud:** Docker, Kubernetes, AWS, Azure, Terraform, GitHub Actions.
-- **Operating Systems (130+):** Forensic analysis and cross-control of over 100 Linux distributions, Unix/BSD environments, and integrated mobile architectures.
+- **Operating Systems (130+):** Forensic analysis and cross-control of over 130 operating systems, including Linux distributions, Unix/BSD environments, and integrated mobile architectures.
 
 ---
 

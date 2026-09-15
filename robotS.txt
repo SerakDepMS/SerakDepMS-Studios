@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://serakdepms.github.io/SerakDepMS-Studios/sitemap.xml

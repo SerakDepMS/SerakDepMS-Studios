@@ -41,7 +41,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (mobileMenu && navLinks) {
         mobileMenu.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
+            const isOpen = navLinks.classList.toggle('active');
+            mobileMenu.setAttribute('aria-expanded', String(isOpen));
+            mobileMenu.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
             const icon = mobileMenu.querySelector('i');
             icon.classList.toggle('fa-bars');
             icon.classList.toggle('fa-xmark');
@@ -51,6 +53,8 @@ document.addEventListener("DOMContentLoaded", () => {
     links.forEach(link => {
         link.addEventListener('click', () => {
             navLinks.classList.remove('active');
+            mobileMenu.setAttribute('aria-expanded', 'false');
+            mobileMenu.setAttribute('aria-label', 'Open menu');
             const icon = mobileMenu.querySelector('i');
             if (icon) {
                 icon.classList.add('fa-bars');
@@ -81,6 +85,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const filterBtns = document.querySelectorAll('.filter-btn');
     const projectCards = document.querySelectorAll('.project-card');
+    const projectsToggle = document.getElementById('projects-toggle');
+    const projectsPerLoad = 3;
+    let visibleProjectCount = projectsPerLoad;
+
+    const updateProjects = (filterValue) => {
+        const matchingCards = Array.from(projectCards).filter(card => {
+            const category = card.getAttribute('data-category');
+            return filterValue === 'all' || category.includes(filterValue);
+        });
+
+        projectCards.forEach(card => {
+            const isMatch = matchingCards.includes(card);
+            const shouldHide = isMatch && matchingCards.indexOf(card) >= visibleProjectCount;
+            card.classList.toggle('hide', !isMatch || shouldHide);
+        });
+
+        if (projectsToggle) {
+            const hasMoreProjects = matchingCards.length > projectsPerLoad;
+            const allProjectsVisible = visibleProjectCount >= matchingCards.length;
+            projectsToggle.hidden = !hasMoreProjects;
+            projectsToggle.setAttribute('aria-expanded', String(visibleProjectCount > projectsPerLoad));
+            projectsToggle.querySelector('span').textContent = allProjectsVisible ? 'Hide' : 'View more';
+        }
+    };
 
     filterBtns.forEach(btn => {
         btn.addEventListener('click', () => {
@@ -88,71 +116,104 @@ document.addEventListener("DOMContentLoaded", () => {
             btn.classList.add('active');
 
             const filterValue = btn.getAttribute('data-filter');
-
-            projectCards.forEach(card => {
-                const category = card.getAttribute('data-category');
-                if (filterValue === 'all' || category.includes(filterValue)) {
-                    card.classList.remove('hide');
-                } else {
-                    card.classList.add('hide');
-                }
-            });
+            visibleProjectCount = projectsPerLoad;
+            updateProjects(filterValue);
         });
     });
+
+    if (projectsToggle) {
+        projectsToggle.addEventListener('click', () => {
+            const activeFilter = document.querySelector('.filter-btn.active').getAttribute('data-filter');
+            const matchingCount = Array.from(projectCards).filter(card => {
+                const category = card.getAttribute('data-category');
+                return activeFilter === 'all' || category.includes(activeFilter);
+            }).length;
+            const shouldCollapse = visibleProjectCount >= matchingCount;
+
+            visibleProjectCount = shouldCollapse
+                ? projectsPerLoad
+                : Math.min(visibleProjectCount + projectsPerLoad, matchingCount);
+            updateProjects(activeFilter);
+
+            if (shouldCollapse) {
+                requestAnimationFrame(() => {
+                    document.getElementById('projects').scrollIntoView({
+                        behavior: 'auto',
+                        block: 'start'
+                    });
+                });
+            }
+        });
+    }
+
+    updateProjects('all');
 
 
     const projectData = {
         matrix: {
-            title: "calculadora-de-matrices",
-            tech: "HTML • CSS • JavaScript • DOM Manipulation • Algoritmos",
-            desc: "Herramienta web interactiva diseñada para realizar operaciones matemáticas complejas con matrices de forma automatizada y eficiente.",
+            title: "matrix-calculator",
+            tech: "HTML • CSS • JavaScript • DOM Manipulation • Algorithms",
+            desc: "Interactive web tool designed to perform complex matrix operations automatically and efficiently.",
+            challenge: "Turn complex matrix operations into a clear workflow that can be used directly in the browser.",
+            approach: "Built a dynamic interface with input validation and DOM manipulation for real-time feedback.",
+            outcome: "A functional web resource for practicing and solving matrix calculations without external tools.",
             features: [
-                "Resolución y cálculo rápido de dimensiones múltiples.",
-                "Interfaz dinámica basada en manipulación avanzada del DOM.",
-                "Validación de datos en tiempo real para evitar errores de sintaxis matemática."
+                "Fast calculation and resolution for multiple matrix dimensions.",
+                "Dynamic interface powered by advanced DOM manipulation.",
+                "Real-time data validation to prevent mathematical syntax errors."
             ],
             github: "https://github.com/SerakDepMS/calculadora-de-matrices"
         },
         clan: {
             title: "Serakdep-MS-Clan-Official",
-            tech: "HTML • CSS • JavaScript • Web UI • Comunidad",
-            desc: "Plataforma web oficial orientada a la gestión de comunidad, interacción digital y presentación de dinámicas de clan.",
+            tech: "HTML • CSS • JavaScript • Web UI • Community",
+            desc: "Official web platform focused on community management, digital interaction, and clan activities.",
+            challenge: "Organize a community's digital presence into an accessible and easy-to-navigate experience.",
+            approach: "Structured a responsive interface with interactive sections and a modular foundation for community content.",
+            outcome: "A centralized platform for presenting the community, its members, and its activities across devices.",
             features: [
-                "Diseño responsivo optimizado para múltiples dispositivos.",
-                "Secciones interactivas para miembros y eventos.",
-                "Estructura modular limpia basada en buenas prácticas de desarrollo web."
+                "Responsive design optimized for multiple devices.",
+                "Interactive sections for members and events.",
+                "Clean modular structure based on web development best practices."
             ],
             github: "https://github.com/SerakDepMS/Serakdep-MS-Clan-Official"
         },
         terminal: {
             title: "Crypt-Terminal",
-            tech: "HTML • CSS • JavaScript • Simulación CLI • Criptografía",
-            desc: "Interfaz de simulación de terminal web interactiva enfocada en herramientas criptográficas y procesamiento de comandos.",
+            tech: "HTML • CSS • JavaScript • CLI Simulation • Cryptography",
+            desc: "Interactive web terminal simulation focused on cryptographic tools and command processing.",
+            challenge: "Bring terminal and cryptography concepts into an interactive and understandable web interface.",
+            approach: "Developed a custom command interpreter with client-side logic and cryptographic validation modules.",
+            outcome: "A simulation environment for exploring commands, encryption logic, and security validation in the browser.",
             features: [
-                "Intérprete de comandos personalizado en JavaScript nativo.",
-                "Diseño inmersivo estilo consola oscura.",
-                "Módulos orientados a pruebas de lógica y encriptación web."
+                "Custom command interpreter built with native JavaScript.",
+                "Immersive dark terminal-style design.",
+                "Modules focused on web logic and encryption testing."
             ],
             github: "https://github.com/SerakDepMS/Crypt-Terminal"
         },
         social: {
             title: "red-social-beta",
-            tech: "HTML • CSS • JavaScript • Prototipado Web • Beta",
-            desc: "Prototipo experimental de red social diseñado para explorar dinámicas de interacción de usuarios y flujos de datos en el cliente.",
+            tech: "HTML • CSS • JavaScript • Web Prototyping • Beta",
+            desc: "Experimental social network prototype designed to explore user interaction patterns and client-side data flows.",
+            challenge: "Explore the essential flows of a social network before committing to a final architecture.",
+            approach: "Prototyped posts, profiles, and interaction components with an initially scalable structure.",
+            outcome: "An experimental foundation for validating social dynamics and product decisions before the next iteration.",
             features: [
-                "Simulación de publicaciones y perfiles dinámicos.",
-                "Arquitectura inicial escalable para componentes sociales.",
-                "Interfaz fluida orientada a la experiencia de usuario."
+                "Simulation of dynamic posts and profiles.",
+                "Initially scalable architecture for social components.",
+                "Fluid interface focused on user experience."
             ],
             github: "https://github.com/SerakDepMS/red-social-beta"
         }
     };
 
     const modalOverlay = document.getElementById('project-modal');
+    const modalContainer = document.querySelector('.modal-container');
     const modalBodyContent = document.getElementById('modal-body-content');
     const closeModalBtn = document.getElementById('close-modal');
 
-    let lastFocusedCard = null;
+    let lastFocusedElement = null;
 
     const openProjectModal = (card) => {
         const projectKey = card.getAttribute('data-project');
@@ -163,16 +224,23 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p class="modal-tech">${data.tech}</p>
                 <h3>${data.title}</h3>
                 <p>${data.desc}</p>
+                <div class="modal-case-study">
+                    <div><strong>Challenge</strong><p>${data.challenge}</p></div>
+                    <div><strong>Approach</strong><p>${data.approach}</p></div>
+                    <div><strong>Outcome</strong><p>${data.outcome}</p></div>
+                </div>
                 <ul class="modal-features">
                     ${data.features.map(f => `<li><i class="fa-solid fa-check"></i> <span>${f}</span></li>`).join('')}
                 </ul>
-                <a href="${data.github}" target="_blank" class="btn btn-primary"><i class="fa-brands fa-github"></i> Ver Repositorio</a>
+                <a href="${data.github}" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fa-brands fa-github"></i> View repository</a>
             `;
             modalOverlay.classList.add('active');
             modalOverlay.setAttribute('aria-hidden', 'false');
             document.body.classList.add('modal-open');
-            lastFocusedCard = card;
-            if (closeModalBtn) closeModalBtn.focus();
+            lastFocusedElement = document.activeElement;
+            if (closeModalBtn) {
+                setTimeout(() => closeModalBtn.focus(), 0);
+            }
         }
     };
 
@@ -182,21 +250,15 @@ document.addEventListener("DOMContentLoaded", () => {
             openProjectModal(card);
         });
 
-        card.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                openProjectModal(card);
-            }
-        });
     });
 
     const closeModal = () => {
         modalOverlay.classList.remove('active');
         modalOverlay.setAttribute('aria-hidden', 'true');
         document.body.classList.remove('modal-open');
-        if (lastFocusedCard) {
-            lastFocusedCard.focus();
-            lastFocusedCard = null;
+        if (lastFocusedElement) {
+            lastFocusedElement.focus();
+            lastFocusedElement = null;
         }
     };
 
@@ -211,14 +273,36 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') closeModal();
+        if (!modalOverlay || !modalOverlay.classList.contains('active')) return;
+
+        if (e.key === 'Escape') {
+            closeModal();
+            return;
+        }
+
+        if (e.key === 'Tab' && modalContainer) {
+            const focusableElements = modalContainer.querySelectorAll(
+                'button:not([disabled]), a[href], [tabindex]:not([tabindex="-1"])'
+            );
+            const firstFocusable = focusableElements[0];
+            const lastFocusable = focusableElements[focusableElements.length - 1];
+
+            if (!focusableElements.length) return;
+            if (e.shiftKey && document.activeElement === firstFocusable) {
+                e.preventDefault();
+                lastFocusable.focus();
+            } else if (!e.shiftKey && document.activeElement === lastFocusable) {
+                e.preventDefault();
+                firstFocusable.focus();
+            }
+        }
     });
 
 
     const sections = document.querySelectorAll('section, footer');
     const navItems = document.querySelectorAll('.nav-links a');
 
-    window.addEventListener('scroll', () => {
+    const updateActiveNav = () => {
         let current = '';
         sections.forEach(section => {
             const sectionTop = section.offsetTop;
@@ -232,11 +316,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
         navItems.forEach(item => {
             item.classList.remove('active');
+            item.removeAttribute('aria-current');
             if (item.getAttribute('href').includes(current)) {
                 item.classList.add('active');
+                item.setAttribute('aria-current', 'page');
             }
         });
-    });
+    };
+
+    window.addEventListener('scroll', updateActiveNav, { passive: true });
+    updateActiveNav();
 
 
     const observerOptions = {
