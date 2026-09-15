@@ -7,6 +7,14 @@
 **Hello, I am SDMS (SerakDepMS)** — Full Stack Architect and Cybersecurity Expert.  
 Passionate about transforming complex problems into secure, scalable, and high-performance digital ecosystems. I specialize in system architectures, zero-trust security, and absolute mastery over infrastructure.
 
+## Copyright and Usage
+
+The source code, written content, visual design, layouts, branding, original graphics, animations, and project data in this repository are proprietary to **SerakDepMS / Serak Digital Mastery & Solutions**. All rights are reserved.
+
+No copying, modification, redistribution, mirroring, scraping, commercial use, or derivative work is permitted without prior written authorization. Viewing the official portfolio does not grant reuse rights. See [LICENSE](LICENSE) for the complete terms.
+
+Third-party libraries, fonts, icons, and external assets remain subject to their own licenses.
+
 ---
 
 ##  Active Terminals
