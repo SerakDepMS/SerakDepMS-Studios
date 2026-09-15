@@ -13,9 +13,11 @@ Passionate about transforming complex problems into secure, scalable, and high-p
 
 - **Live Operations (Portfolio):** [serakdepms.github.io/SerakDepMS-Studios](https://serakdepms.github.io/SerakDepMS-Studios/)
 - **GitHub Repository:** [github.com/SerakDepMS](https://github.com/SerakDepMS)
-- **Secure Comms (WhatsApp):** [Initialize Chat](https://wa.me/573116546484?text=Hello%20SerakDepMS,%20I%20need%20software%20architecture%20and%20development.)
-- **LinkedIn Network:** [linkedin.com/in/tu-perfil](https://linkedin.com/in/tu-perfil) *(update with your real URL)*
-- **X / Twitter Terminal:** [twitter.com/tu-usuario](https://twitter.com/tu-usuario) *(update with your real URL)*
+- **Secure Comms (WhatsApp):** [Initialize Chat](https://wa.me/SerakDepMS?text=Hello%20SerakDepMS,%20I%20need%20software%20architecture%20and%20development.)
+- **LinkedIn Network:** [linkedin.com/in/manasés-diaz-arcia-16a198382](https://www.linkedin.com/in/manas%C3%A9s-diaz-arcia-16a198382)
+- **X / Twitter Terminal:** [x.com/SerakDepMS_STOS](https://x.com/SerakDepMS_STOS)
+- **Facebook:** [facebook.com/SerakDepMS](https://www.facebook.com/SerakDepMS)
+- **Instagram:** [instagram.com/serakdepms_oficial](https://www.instagram.com/serakdepms_oficial?stkn=bnhsYmVncnpjc3Vv)
 
 ---
 
@@ -42,7 +44,7 @@ I believe in security by design, continuous learning, and rigorous architectural
 
 Looking to secure your architecture, optimize servers, or build a digital ecosystem from scratch? I am open to technical collaborations, freelance operations, or high-level tech discussions.
 
-- **WhatsApp:** [Encrypt Message Here](https://wa.me/573116546484?text=Hello%20SerakDepMS,%20I%20need%20software%20architecture%20and%20development.)
+- **WhatsApp:** [Encrypt Message Here](https://wa.me/SerakDepMS?text=Hello%20SerakDepMS,%20I%20need%20software%20architecture%20and%20development.)
 
 ---
 
