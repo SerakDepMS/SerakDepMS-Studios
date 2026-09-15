@@ -14,7 +14,7 @@ Passionate about transforming complex problems into secure, scalable, and high-p
 - **Live Operations (Portfolio):** [serakdepms.github.io/SerakDepMS-Studios](https://serakdepms.github.io/SerakDepMS-Studios/)
 - **GitHub Repository:** [github.com/SerakDepMS](https://github.com/SerakDepMS)
 - **Secure Comms (WhatsApp):** [Initialize Chat](https://wa.me/SerakDepMS?text=Hello%20SerakDepMS,%20I%20need%20software%20architecture%20and%20development.)
-- **LinkedIn Network:** [linkedin.com/in/manasés-diaz-arcia-16a198382](https://www.linkedin.com/in/manas%C3%A9s-diaz-arcia-16a198382)
+- **LinkedIn Network:** [linkedin.com/in/SerakDepMS](https://www.linkedin.com/in/SerakDepMS)
 - **X / Twitter Terminal:** [x.com/SerakDepMS_STOS](https://x.com/SerakDepMS_STOS)
 - **Facebook:** [facebook.com/SerakDepMS](https://www.facebook.com/SerakDepMS)
 - **Instagram:** [instagram.com/serakdepms_oficial](https://www.instagram.com/serakdepms_oficial?stkn=bnhsYmVncnpjc3Vv)
