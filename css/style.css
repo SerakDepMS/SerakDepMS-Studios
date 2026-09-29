@@ -556,3 +556,9 @@ body.modal-open { overflow: hidden; }
     .neon-bg-left::before { right: 10px; left: -10px; }
 }
 .project-links a span { font-size: 0.7rem; font-weight: 600; margin-left: 6px; }
+
+.project-category-badge.cat-web { 
+    color: #00d2ff; 
+    border-color: rgba(0, 210, 255, 0.4); 
+    background: rgba(0, 210, 255, 0.08); 
+}

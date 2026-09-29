@@ -164,13 +164,28 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             github: "https://github.com/SerakDepMS/calculadora-de-matrices"
         },
+        arenatours: {
+            title: "Arena Tours Cartagena",
+            tech: "HTML • CSS • JavaScript • Hostinger",
+            desc: "Sitio web oficial para una agencia de turismo en Cartagena, Colombia. Plataforma completa para la promoción de tours, gestión de reservas y presentación de destinos turísticos.",
+            challenge: "Crear una plataforma web atractiva y funcional que refleje la esencia del Caribe colombiano y facilite la conversión de visitantes en clientes.",
+            approach: "Diseño responsivo con enfoque en la experiencia de usuario, optimización para SEO local, integración de sistemas de reservas y presentación visual de destinos turísticos.",
+            outcome: "Un sitio web profesional que posiciona a Arena Tours Cartagena como un operador turístico confiable y accesible para clientes nacionales e internacionales.",
+            features: [
+                "Diseño responsivo optimizado para dispositivos móviles.",
+                "Catálogo completo de tours con precios y detalles.",
+                "Integración con Hostinger para hosting y despliegue continuo.",
+                "Optimización SEO para búsquedas locales en Cartagena."
+            ],
+            github: null // No hay repositorio público porque está en Hostinger
+        },
         clan: {
             title: "Serakdep-MS-Clan-Official",
-            tech: "HTML • CSS • JavaScript • Web UI • Community",
-            desc: "Official web platform focused on community management, digital interaction, and clan activities.",
-            challenge: "Organize a community's digital presence into an accessible and easy-to-navigate experience.",
+            tech: "HTML • CSS • JavaScript • Web UI • Gaming Community",
+            desc: "Official web platform focused on community management, digital interaction, and clan activities for the gamer ecosystem.",
+            challenge: "Organize a gamer community's digital presence into an accessible and easy-to-navigate experience.",
             approach: "Structured a responsive interface with interactive sections and a modular foundation for community content.",
-            outcome: "A centralized platform for presenting the community, its members, and its activities across devices.",
+            outcome: "A centralized platform for presenting the community, its members, and its eSports activities across devices.",
             features: [
                 "Responsive design optimized for multiple devices.",
                 "Interactive sections for members and events.",
@@ -194,9 +209,9 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         social: {
             title: "red-social-beta",
-            tech: "HTML • CSS • JavaScript • Web Prototyping • Beta",
-            desc: "Experimental social network prototype designed to explore user interaction patterns and client-side data flows.",
-            challenge: "Explore the essential flows of a social network before committing to a final architecture.",
+            tech: "HTML • CSS • JavaScript • Web Prototyping • Programming Community",
+            desc: "Experimental social network prototype designed to explore user interaction patterns and client-side data flows for programmer communities.",
+            challenge: "Explore the essential flows of a social network for developers before committing to a final architecture.",
             approach: "Prototyped posts, profiles, and interaction components with an initially scalable structure.",
             outcome: "An experimental foundation for validating social dynamics and product decisions before the next iteration.",
             features: [
@@ -220,6 +235,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const data = projectData[projectKey];
 
         if (data) {
+            // Generar botón de GitHub condicionalmente
+            const githubButton = data.github 
+                ? `<a href="${data.github}" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fa-brands fa-github"></i> View repository</a>` 
+                : '';
+
             modalBodyContent.innerHTML = `
                 <p class="modal-tech">${data.tech}</p>
                 <h3>${data.title}</h3>
@@ -232,7 +252,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <ul class="modal-features">
                     ${data.features.map(f => `<li><i class="fa-solid fa-check"></i> <span>${f}</span></li>`).join('')}
                 </ul>
-                <a href="${data.github}" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fa-brands fa-github"></i> View repository</a>
+                ${githubButton}
             `;
             modalOverlay.classList.add('active');
             modalOverlay.setAttribute('aria-hidden', 'false');
