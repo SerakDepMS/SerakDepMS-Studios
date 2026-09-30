@@ -193,6 +193,21 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             github: "https://github.com/SerakDepMS/Serakdep-MS-Clan-Official"
         },
+        devs: {
+            title: "Serakdep-MS-Devs-Official",
+            tech: "HTML • CSS • JavaScript • Web UI • Programming Community",
+            desc: "División oficial de programación de SerakDepMS Studios. Un ecosistema donde desarrolladores de todos los niveles aprenden, colaboran y construyen juntos, con divisiones especializadas por área técnica.",
+            challenge: "Crear un espacio digital accesible y profesional que centralice la información de la comunidad de programación, sus normas, sanciones y divisiones técnicas.",
+            approach: "Diseñamos una plataforma web responsiva con secciones claras para normas, sanciones progresivas, divisiones por lenguaje/área y un sistema de FAQ interactivo para resolver dudas frecuentes.",
+            outcome: "Un sitio web oficial que posiciona a Serakdep-MS-Devs-Official como la división de programación de referencia dentro del ecosistema SerakDepMS, con información clara y accesible para todos los miembros.",
+            features: [
+                "8 divisiones técnicas: Python, Web, Backend, Mobile, Game Dev, Ciberseguridad, IA y Algoritmos.",
+                "Sistema de sanciones progresivas de 4 niveles adaptado al contexto de la comunidad.",
+                "Diseño responsivo optimizado para móviles con navegación fluida.",
+                "Sección de FAQ interactiva y reglamento completo de convivencia."
+            ],
+            github: "https://github.com/SerakDepMS/Serakdep-MS-Devs-Official"
+        },
         terminal: {
             title: "Crypt-Terminal",
             tech: "HTML • CSS • JavaScript • CLI Simulation • Cryptography",
