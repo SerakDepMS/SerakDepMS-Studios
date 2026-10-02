@@ -1,184 +1,57 @@
-# LICENCIA PROPIETARIA UNIFICADA
-## SerakDepMS Studios — Serak Digital Mastery & Solutions
-### Copyright (c) 2026 SerakDepMS Studios. Todos los derechos reservados.
+﻿# PROPRIETARY LICENSE
+## SerakDepMS — Serak Digital Mastery & Solutions
+### Copyright (c) 2026 SerakDepMS. All rights reserved.
 
----
+This repository and all related digital materials, source code, visual identity, assets, branding, architectures, websites, game projects, community platforms, documentation, and associated content are the exclusive property of **SerakDepMS** (the parent company), and they also cover the official communities operating under **SerakDepMS Studios**.
 
-## PREÁMBULO
+The following ecosystem assets are included in the scope of this proprietary license:
 
-La presente Licencia Propietaria Unificada (en adelante, "LA LICENCIA") rige
-de forma exclusiva, global y permanente todos los proyectos, repositorios,
-sitios web, aplicaciones, comunidades, marcas, contenidos y materiales
-propiedad de **SerakDepMS Studios** (en adelante, "LA EMPRESA"), también
-identificada comercialmente como **Serak Digital Mastery & Solutions** o por
-sus siglas **SDMS**.
+- https://serakdepms.github.io/SerakDepMS-Studios/
+- https://serakdepms.github.io/Serakdep-MS-Clan-Official/
+- https://serakdepms.github.io/Serakdep-MS-Devs-Official/
+- https://github.com/SerakDepMS
+- Any public or private projects, repositories, apps, tools, landing pages, community platforms, assets, and digital products developed, managed, or distributed by SerakDepMS and SerakDepMS Studios.
 
-LA LICENCIA aplica, sin carácter limitativo, a:
+## 1. Ownership
 
-- El sitio oficial del ecosistema: `https://serakdepms.github.io/SerakDepMS-Studios/`
-- El sitio del clan y comunidad gamer: `https://serakdepms.github.io/Serakdep-MS-Clan-Official/`
-- El sitio de la comunidad de programación: `https://serakdepms.github.io/Serakdep-MS-Devs-Official/`
-- Todos los repositorios alojados bajo la organización oficial: `https://github.com/SerakDepMS`
-- Todos los proyectos presentes y futuros, desarrollados o distribuidos por LA EMPRESA, incluyendo sitios web, videojuegos, herramientas, APIs, aplicaciones móviles, documentación técnica, material gráfico, logos, animaciones, marcas y cualquier obra derivada.
+All rights, title, and interest in the software, content, designs, graphics, code, source files, scripts, images, animations, documentation, trademarks, logos, and brand elements are owned by **SerakDepMS** and protected under applicable intellectual property laws.
 
----
+This includes, without limitation, all work created for the company, the ecosystem, and its official communities.
 
-## 1. PROPIEDAD INTELECTUAL
+## 2. No license for reuse
 
-Todas las obras, códigos fuente, diseños, gráficos, textos, animaciones, logos,
-marcas, nombres comerciales, bases de datos, documentación y cualquier otro
-material contenido en los proyectos de LA EMPRESA (en conjunto, "LAS OBRAS")
-son propiedad intelectual exclusiva de **SerakDepMS Studios**.
+No license, permission, or implied right is granted to:
 
-LAS OBRAS están protegidas por:
-- Las leyes internacionales de Derecho de Autor (Convenio de Berna).
-- La Digital Millennium Copyright Act (DMCA).
-- La legislación colombiana sobre derechos de autor (Ley 23 de 1982 y Ley 44 de 1993).
-- La normativa de propiedad industrial aplicable a marcas y signos distintivos.
-- Cualquier otra legislación vigente que resulte aplicable en la jurisdicción del usuario.
+- copy, reproduce, clone, mirror, redistribute, publish, or share the materials;
+- modify, adapt, translate, transform, or create derivative works;
+- commercialize, resell, sublicense, or exploit the work in any form;
+- use the official trademarks, names, logos, or visual identity without prior written authorization;
+- republish any project or community platform without express consent.
 
-LA EMPRESA se reserva **TODOS LOS DERECHOS** que no estén expresamente
-cedidos por escrito y firmados por un representante autorizado.
+The software is provided as a proprietary resource and is not open source, not public domain, and not free software.
 
----
+## 3. Community ecosystem coverage
 
-## 2. AUSENCIA DE LICENCIA DE USO (NO OPEN SOURCE)
+This proprietary policy covers both the parent company **SerakDepMS** and the official communities operated under **SerakDepMS Studios**, including the gamer and developer ecosystems, their websites, official repositories, digital products, and any associated community assets.
 
-**ESTE SOFTWARE Y TODAS LAS OBRAS NO SON DE CÓDIGO ABIERTO NI SOFTWARE LIBRE.**
+## 4. Contribution limitations
 
-No se otorga ninguna licencia, expresa o implícita, para:
+A GitHub fork may be created only for the sole purpose of preparing a direct contribution back to the official repository. Any fork or copy must not be used for public hosting, redistribution, commercial operation, or ongoing independent deployment unless expressly authorized in writing by SerakDepMS.
 
-- Copiar, reproducir, clonar, duplicar o extraer LAS OBRAS, total o parcialmente.
-- Modificar, adaptar, traducir, transformar o crear trabajos derivados.
-- Distribuir, publicar, alojar, espejar (mirror) o compartir LAS OBRAS en cualquier medio, plataforma o red.
-- Usar LAS OBRAS con fines comerciales, lucrativos, publicitarios o de generación de ingresos.
-- Integrar LAS OBRAS en otros proyectos, productos, servicios o ecosistemas.
-- Realizar ingeniería inversa, descompilación, desensamblado o extracción de lógica, algoritmos, diseños o estructura.
-- Utilizar los nombres, logos, marcas o identidad visual de LA EMPRESA ("SerakDepMS", "SDMS", "Serakdep-MS", "Serak Digital Mastery & Solutions", el águila de circuitos, y cualquier signo distintivo asociado) sin autorización previa y por escrito.
+## 5. Legal protections
 
----
+This material is protected by copyright, trademark, and related laws in Colombia and international jurisdictions. Any unauthorized use may result in civil and criminal enforcement actions.
 
-## 3. EXCEPCIÓN ÚNICA: CONTRIBUCIONES DIRECTAS
+## 6. No warranty
 
-Se permite la realización de un **"Fork"** en GitHub u otras plataformas de
-control de versiones exclusivamente con el propósito de enviar una
-**"Pull Request"**, **"Merge Request"** o contribución equivalente al
-repositorio oficial de LA EMPRESA.
+The materials are provided "as is" without warranty of any kind, express or implied, including merchantability, fitness for a particular purpose, or non-infringement.
 
-Dicho Fork:
+## 7. Contact
 
-a) No constituye una licencia de uso, modificación, distribución ni explotación de LAS OBRAS.
-b) Deberá ser **ELIMINADO** por el usuario inmediatamente después de que la contribución sea aceptada, rechazada o quede inactiva durante más de 30 días.
-c) No autoriza el alojamiento público permanente, la redistribución ni la explotación del código bifurcado bajo ningún concepto.
-d) No otorga derechos sobre la marca, identidad visual ni nombre comercial de LA EMPRESA.
+For special permissions, collaboration inquiries, licensing requests, or written authorization, contact:
 
-Cualquier uso que exceda el envío de una contribución directa al repositorio
-original queda estrictamente prohibido y será considerado una infracción de
-los derechos de autor y propiedad industrial.
+- GitHub: https://github.com/SerakDepMS
+- WhatsApp: https://wa.me/SerakDepMS
+- Portfolio: https://serakdepms.github.io/SerakDepMS-Studios/
 
----
-
-## 4. COMUNIDADES Y PLATAFORMAS OFICIALES
-
-Las comunidades gestionadas por LA EMPRESA (grupos de WhatsApp, servidores de
-Discord, grupos de Roblox y cualquier otra plataforma) son espacios oficiales
-bajo su administración. Los miembros aceptan las normas internas publicadas en
-cada comunidad.
-
-El contenido generado por los usuarios dentro de estas comunidades es
-responsabilidad exclusiva de sus autores. LA EMPRESA se reserva el derecho de
-moderar, eliminar, sancionar o expulsar a cualquier miembro que incumpla las
-normas vigentes.
-
-Las normas y sanciones pueden actualizarse periódicamente para adaptarse a un
-contexto más claro y comprensible, sin necesidad de notificación previa.
-
----
-
-## 5. CONSECUENCIAS POR INCUMPLIMIENTO
-
-El incumplimiento de los presentes términos constituye una violación directa
-de la normativa de propiedad intelectual e industrial. LA EMPRESA se reserva
-el derecho de:
-
-- Ejercer acciones legales civiles y penales por daños y perjuicios.
-- Emitir notificaciones de retirada (**DMCA Takedown**) a las plataformas involucradas (GitHub, GitLab, Vercel, Netlify, Hostinger, Cloudflare, entre otras).
-- Solicitar la eliminación inmediata del contenido infractor en cualquier motor de búsqueda o red social.
-- Prohibir permanentemente el acceso del infractor a todas las comunidades, repositorios y plataformas oficiales.
-- Reclamar la indemnización correspondiente por el uso no autorizado.
-
----
-
-## 6. EXENCIÓN DE RESPONSABILIDAD Y GARANTÍA
-
-LAS OBRAS SE PROPORCIONAN **"TAL CUAL" ("AS IS")**, SIN GARANTÍAS DE NINGÚN
-TIPO, EXPRESAS O IMPLÍCITAS, INCLUYENDO PERO NO LIMITÁNDOSE A GARANTÍAS DE
-COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR O NO INFRACCIÓN.
-
-EN NINGÚN CASO LA EMPRESA, SUS FUNDADORES, ADMINISTRADORES, COLABORADORES O
-REPRESENTANTES SERÁN RESPONSABLES POR DAÑOS DIRECTOS, INDIRECTOS,
-INCIDENTALES, ESPECIALES O CONSECUENTES DERIVADOS DEL USO O LA IMPOSIBILIDAD
-DE USO DE LAS OBRAS.
-
----
-
-## 7. VIGENCIA Y MODIFICACIONES
-
-LA LICENCIA es perpetua, irrevocable en sus restricciones y se aplica a todas
-las versiones pasadas, presentes y futuras de LAS OBRAS, salvo que LA EMPRESA
-publique explícitamente una versión bajo términos diferentes.
-
-LA EMPRESA se reserva el derecho de modificar, ampliar o sustituir esta
-licencia en cualquier momento. Las modificaciones entrarán en vigor desde su
-publicación en el repositorio oficial.
-
----
-
-## 8. CONTACTO PARA PERMISOS ESPECIALES
-
-Para solicitar una autorización por escrito que permita un uso distinto al
-aquí estipulado (licencias comerciales, integración en otros proyectos,
-distribución, colaboración o cualquier otro fin), contactar a través de:
-
-- **Correo electrónico:** manasesdiaz67@gmail.com
-- **GitHub oficial:** https://github.com/SerakDepMS
-- **Sitio web oficial:** https://serakdepms.github.io/SerakDepMS-Studios/
-- **WhatsApp corporativo:** https://wa.me/SerakDepMS
-
----
-
-## 9. ACEPTACIÓN DE TÉRMINOS
-
-El mero acceso, visualización, descarga, uso o interacción con cualquiera de
-LAS OBRAS implica la aceptación plena y sin reservas de todos los términos
-aquí establecidos.
-
-Si el usuario no está de acuerdo con estos términos, deberá abstenerse de
-acceder, visualizar o utilizar LAS OBRAS.
-
----
-
-## 10. TERCEROS Y RECURSOS EXTERNOS
-
-Las librerías, frameworks, fuentes tipográficas, íconos, imágenes y recursos
-de terceros utilizados dentro de LAS OBRAS conservan sus propias licencias
-originales. Esta licencia no modifica, sustituye ni amplía los términos de
-dichos terceros.
-
----
-
-## 11. JURISDICCIÓN APLICABLE
-
-Cualquier controversia derivada de la interpretación o aplicación de esta
-licencia se someterá a la jurisdicción de los tribunales competentes de la
-República de Colombia, sin perjuicio de las acciones internacionales que LA
-EMPRESA pueda ejercer en otras jurisdicciones.
-
----
-
-**Última actualización:** 30 de septiembre de 2026
-
-**SerakDepMS Studios — Serak Digital Mastery & Solutions**
-*"Deploying secure ecosystems and empowering communities, one tactical commit at a time."*
-
-© 2026 SerakDepMS Studios. All Rights Reserved.
+By accessing, viewing, or using any part of this repository or its ecosystem assets, the user accepts the terms set forth in this proprietary license.

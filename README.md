@@ -1,59 +1,36 @@
-# SerakDepMS | Serak Digital Mastery & Solutions
+﻿# SerakDepMS â€” Empresa Matriz del Ecosistema Digital
 
 <p align="center">
   <img src="assets/images/profile.gif" alt="SerakDepMS Ecosystem" width="120" style="border-radius: 50%;">
 </p>
 
-**Welcome to SerakDepMS (SDMS)** — A technology ecosystem focused on comprehensive digital development. We specialize in web architecture, video game creation, cybersecurity, and building vibrant communities for gamers and programmers.
+SerakDepMS es la empresa matriz del ecosistema digital. No es una comunidad ni una marca de comunidad; es la estructura corporativa que impulsa desarrollo web, arquitectura, ciberseguridad y la gestiÃ³n de los ecosistemas digitales que apoyan a las comunidades oficiales de **SerakDepMS Studios**.
 
-## Copyright and Usage
+## Los tres pilares
 
-The source code, written content, visual design, layouts, branding, original graphics, animations, and project data in this repository are proprietary to **SerakDepMS / Serak Digital Mastery & Solutions**. All rights are reserved.
+1. **Web Development & Technology**
+   Bajo el sello tÃ©cnico de **SerakDepMS**. Arquitectura web, soluciones empresariales escalables, APIs de alto rendimiento, ciberseguridad y DevSecOps.
 
-No copying, modification, redistribution, mirroring, scraping, commercial use, or derivative work is permitted without prior written authorization. Viewing the official portfolio does not grant reuse rights. See [LICENSE](LICENSE) for the complete terms.
+2. **Game Development & Gamer Communities**
+   Operado bajo la denominaciÃ³n **SerakDepMS Studios**. CreaciÃ³n de videojuegos, herramientas para eSports y gestiÃ³n de las **12 divisiones Gamer** de la comunidad oficial.
 
-Third-party libraries, fonts, icons, and external assets remain subject to their own licenses.
+3. **Programming Communities**
+   Operado bajo la denominaciÃ³n **SerakDepMS Studios**. ConstrucciÃ³n y gestiÃ³n de las **8 divisiones tÃ©cnicas** de la comunidad Devs, eventos, hackathons y proyectos colaborativos.
 
----
+## Enlaces oficiales
 
-##  Active Terminals
+- **Portafolio:** [serakdepms.github.io/SerakDepMS-Studios](https://serakdepms.github.io/SerakDepMS-Studios/)
+- **Comunidad Gamer:** [serakdepms.github.io/Serakdep-MS-Clan-Official](https://serakdepms.github.io/Serakdep-MS-Clan-Official/)
+- **Comunidad Devs:** [serakdepms.github.io/Serakdep-MS-Devs-Official](https://serakdepms.github.io/Serakdep-MS-Devs-Official/)
+- **GitHub:** [github.com/SerakDepMS](https://github.com/SerakDepMS)
+- **WhatsApp:** [wa.me/SerakDepMS](https://wa.me/SerakDepMS)
 
-- **Live Operations (Portfolio):** [serakdepms.github.io/SerakDepMS-Studios](https://serakdepms.github.io/SerakDepMS-Studios/)
-- **GitHub Repository:** [github.com/SerakDepMS](https://github.com/SerakDepMS)
-- **Secure Comms (WhatsApp):** [Initialize Chat](https://wa.me/SerakDepMS?text=Hello%20SerakDepMS,%20I%20need%20software%20architecture%20and%20development.)
-- **LinkedIn Network:** [linkedin.com/in/SerakDepMS](https://www.linkedin.com/in/SerakDepMS)
-- **X / Twitter Terminal:** [x.com/SerakDepMS_STOS](https://x.com/SerakDepMS_STOS)
-- **Facebook:** [facebook.com/SerakDepMS](https://www.facebook.com/SerakDepMS)
-- **Instagram:** [instagram.com/serakdepms_oficial](https://www.instagram.com/serakdepms_oficial?stkn=bnhsYmVncnpjc3Vv)
+## DescripciÃ³n oficial
 
----
+**Full Stack Architect & Cybersecurity Expert. 130+ OS mastery. Impacting web dev, game dev & gamer communities, and programming communities.**
 
-##  Core Directive
+## Copyright
 
-> *"We don't just write code: we design digital ecosystems built to scale, perform at the highest level, and foster vibrant communities in web, gaming, and programming."*
+Â© 2026 SerakDepMS. All rights reserved.
 
-We believe in security by design, continuous learning, and rigorous architectural planning as the foundational pillars to build applications and communities that dominate the digital space.
-
----
-
-##  Technical Arsenal & Ecosystem Impact
-
-- **Web & Tech Development:** Full Stack architectures (React, Next.js, Node.js, Python, Go, Rust).
-- **Game Development & eSports:** Interactive media creation, game engines, and tools for the gaming community.
-- **Community Management:** Building and scaling communities for gamers and programmers. Events, hackathons, and collaborative platforms.
-- **Cybersecurity & DevSecOps:** Docker, Kubernetes, AWS, Terraform, zero-trust security, and server hardening.
-- **Operating Systems (130+):** Forensic analysis and cross-control of over 130 operating systems, including Linux distributions, Unix/BSD environments, and integrated mobile architectures.
-
----
-
-##  Initialize Collaboration Sequence
-
-Looking to build a web platform, develop a game, manage a community, or secure your architecture? We are open to technical collaborations, freelance operations, or high-level tech discussions.
-
-- **WhatsApp:** [Encrypt Message Here](https://wa.me/SerakDepMS?text=Hello%20SerakDepMS,%20I%20need%20software%20architecture%20and%20development.)
-
----
-
-<p align="center">
-  <i>“Deploying secure ecosystems and empowering communities, one tactical commit at a time.”</i>
-</p>
+Este repositorio, sus materiales, arquitecturas, diseÃ±os, textos, activos digitales y proyectos del ecosistema estÃ¡n protegidos por derechos de propiedad de **SerakDepMS** y cubren tambiÃ©n a las comunidades operadas bajo **SerakDepMS Studios**. Consulte [LICENSE](LICENSE) para conocer los tÃ©rminos completos.

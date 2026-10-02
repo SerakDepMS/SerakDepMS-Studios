@@ -1,4 +1,4 @@
-name: "CodeQL Advanced"
+﻿name: "CodeQL Advanced"
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
 
 jobs:
   analyze:
-    if: false
+    if: true
     name: Analyze (${{ matrix.language }})
     runs-on: ubuntu-latest
     permissions:
