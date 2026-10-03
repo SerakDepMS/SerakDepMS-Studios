@@ -1,30 +1,30 @@
 ﻿# Identidad Corporativa de SerakDepMS
 
-## 1. DiferenciaciÃ³n oficial
+## 1. Diferenciación oficial
 
-**SerakDepMS** es la empresa matriz. Es la entidad responsable del desarrollo web, la arquitectura digital, la ciberseguridad, los servicios profesionales y la estrategia tecnolÃ³gica del ecosistema.
+**SerakDepMS** es la empresa matriz. Es la entidad responsable del desarrollo web, la arquitectura digital, la ciberseguridad, los servicios profesionales y la estrategia tecnológica del ecosistema.
 
-**SerakDepMS Studios** es la denominaciÃ³n oficial de las comunidades gamer y devs. No reemplaza a la empresa matriz; es el entorno operativo de las comunidades y sus divisiones oficiales.
+**SerakDepMS Studios** es la denominación oficial de las comunidades gamer y devs. No reemplaza a la empresa matriz; es el entorno operativo de las comunidades y sus divisiones oficiales.
 
 ### Copyright diferenciado
 
-- **Â© 2026 SerakDepMS** â€” para la empresa matriz
-- **Â© 2026 SerakDepMS Studios** â€” para las comunidades y sus plataformas
+- **© 2026 SerakDepMS** — para la empresa matriz
+- **© 2026 SerakDepMS Studios** — para las comunidades y sus plataformas
 
 ## 2. Tres pilares del ecosistema
 
-### Pilar 1 â€” Web Development & Technology
-Bajo el sello tÃ©cnico de **SerakDepMS**. Arquitectura web, soluciones empresariales escalables, APIs de alto rendimiento, ciberseguridad y DevSecOps.
+### Pilar 1 — Web Development & Technology
+Bajo el sello técnico de **SerakDepMS**. Arquitectura web, soluciones empresariales escalables, APIs de alto rendimiento, ciberseguridad y DevSecOps.
 
-### Pilar 2 â€” Game Development & Gamer Communities
-Operado bajo la denominaciÃ³n **SerakDepMS Studios**. CreaciÃ³n de videojuegos, herramientas para eSports y gestiÃ³n de las **12 divisiones Gamer** de la comunidad oficial.
+### Pilar 2 — Game Development & Gamer Communities
+Operado bajo la denominación **SerakDepMS Studios**. Creación de videojuegos, herramientas para eSports y gestión de las **12 divisiones Gamer** de la comunidad oficial.
 
-### Pilar 3 â€” Programming Communities
-Operado bajo la denominaciÃ³n **SerakDepMS Studios**. ConstrucciÃ³n y gestiÃ³n de las **8 divisiones tÃ©cnicas** de la comunidad Devs, eventos, hackathons y proyectos colaborativos.
+### Pilar 3 — Programming Communities
+Operado bajo la denominación **SerakDepMS Studios**. Construcción y gestión de las **8 divisiones técnicas** de la comunidad Devs, eventos, hackathons y proyectos colaborativos.
 
 ## 3. Comunidades oficiales
 
-### Comunidad Gamer â€” Serakdep-MS-Clan-Official
+### Comunidad Gamer — Serakdep-MS-Clan-Official
 **12 divisiones oficiales**
 
 - Roblox
@@ -42,8 +42,8 @@ Operado bajo la denominaciÃ³n **SerakDepMS Studios**. ConstrucciÃ³n y gesti�
 
 Sitio oficial: https://serakdepms.github.io/Serakdep-MS-Clan-Official/
 
-### Comunidad Devs â€” Serakdep-MS-Devs-Official
-**8 divisiones tÃ©cnicas oficiales**
+### Comunidad Devs — Serakdep-MS-Devs-Official
+**8 divisiones técnicas oficiales**
 
 - Python & Data Science
 - Web Development
@@ -64,9 +64,9 @@ Sitio oficial: https://serakdepms.github.io/Serakdep-MS-Devs-Official/
 - GitHub: https://github.com/SerakDepMS
 - WhatsApp: https://wa.me/SerakDepMS
 
-## 5. PolÃ­tica de edad y comunidades
+## 5. Política de edad y comunidades
 
-La edad mÃ­nima en las comunidades es **13 aÃ±os**. Para personas de **13 a 15 aÃ±os**, se requiere consentimiento parental obligatorio.
+La edad mínima en las comunidades es **13 años**. Para personas de **13 a 15 años**, se requiere consentimiento parental obligatorio.
 
 ## 6. Paleta oficial
 

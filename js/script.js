@@ -152,7 +152,7 @@
     const projectData = {
         matrix: {
             title: "matrix-calculator",
-            tech: "HTML â€¢ CSS â€¢ JavaScript â€¢ DOM Manipulation â€¢ Algorithms",
+            tech: "HTML • CSS • JavaScript • DOM Manipulation • Algorithms",
             desc: "Interactive web tool designed to perform complex matrix operations automatically and efficiently.",
             challenge: "Turn complex matrix operations into a clear workflow that can be used directly in the browser.",
             approach: "Built a dynamic interface with input validation and DOM manipulation for real-time feedback.",
@@ -166,22 +166,22 @@
         },
         arenatours: {
             title: "Arena Tours Cartagena",
-            tech: "HTML â€¢ CSS â€¢ JavaScript â€¢ Hostinger",
-            desc: "Sitio web oficial para una agencia de turismo en Cartagena, Colombia. Plataforma completa para la promociÃ³n de tours, gestiÃ³n de reservas y presentaciÃ³n de destinos turÃ­sticos.",
-            challenge: "Crear una plataforma web atractiva y funcional que refleje la esencia del Caribe colombiano y facilite la conversiÃ³n de visitantes en clientes.",
-            approach: "DiseÃ±o responsivo con enfoque en la experiencia de usuario, optimizaciÃ³n para SEO local, integraciÃ³n de sistemas de reservas y presentaciÃ³n visual de destinos turÃ­sticos.",
-            outcome: "Un sitio web profesional que posiciona a Arena Tours Cartagena como un operador turÃ­stico confiable y accesible para clientes nacionales e internacionales.",
+            tech: "HTML • CSS • JavaScript • Hostinger",
+            desc: "Sitio web oficial para una agencia de turismo en Cartagena, Colombia. Plataforma completa para la promoción de tours, gestión de reservas y presentación de destinos turísticos.",
+            challenge: "Crear una plataforma web atractiva y funcional que refleje la esencia del Caribe colombiano y facilite la conversión de visitantes en clientes.",
+            approach: "Diseño responsivo con enfoque en la experiencia de usuario, optimización para SEO local, integración de sistemas de reservas y presentación visual de destinos turísticos.",
+            outcome: "Un sitio web profesional que posiciona a Arena Tours Cartagena como un operador turístico confiable y accesible para clientes nacionales e internacionales.",
             features: [
-                "DiseÃ±o responsivo optimizado para dispositivos mÃ³viles.",
-                "CatÃ¡logo completo de tours con precios y detalles.",
-                "IntegraciÃ³n con Hostinger para hosting y despliegue continuo.",
-                "OptimizaciÃ³n SEO para bÃºsquedas locales en Cartagena."
+                "Diseño responsivo optimizado para dispositivos móviles.",
+                "Catálogo completo de tours con precios y detalles.",
+                "Integración con Hostinger para hosting y despliegue continuo.",
+                "Optimización SEO para búsquedas locales en Cartagena."
             ],
-            github: null // No hay repositorio pÃºblico porque estÃ¡ en Hostinger
+            github: null // No hay repositorio público porque está en Hostinger
         },
         gamerCommunity: {
             title: "SerakDepMS Ecosystem Base",
-            tech: "HTML â€¢ CSS â€¢ JavaScript â€¢ Web UI â€¢ Gaming Community",
+            tech: "HTML • CSS • JavaScript • Web UI • Gaming Community",
             desc: "Official web platform focused on community management, digital interaction, and community activities for the gamer ecosystem.",
             challenge: "Organize a gamer community's digital presence into an accessible and easy-to-navigate experience.",
             approach: "Structured a responsive interface with interactive sections and a modular foundation for community content.",
@@ -195,22 +195,22 @@
         },
         devs: {
             title: "Serakdep-MS-Devs-Official",
-            tech: "HTML â€¢ CSS â€¢ JavaScript â€¢ Web UI â€¢ Programming Community",
-            desc: "DivisiÃ³n oficial de programaciÃ³n de SerakDepMS Studios. Un ecosistema donde desarrolladores de todos los niveles aprenden, colaboran y construyen juntos, con divisiones especializadas por Ã¡rea tÃ©cnica.",
-            challenge: "Crear un espacio digital accesible y profesional que centralice la informaciÃ³n de la comunidad de programaciÃ³n, sus normas, sanciones y divisiones tÃ©cnicas.",
-            approach: "DiseÃ±amos una plataforma web responsiva con secciones claras para normas, sanciones progresivas, divisiones por lenguaje/Ã¡rea y un sistema de FAQ interactivo para resolver dudas frecuentes.",
-            outcome: "Un sitio web oficial que posiciona a Serakdep-MS-Devs-Official como la divisiÃ³n de programaciÃ³n de referencia dentro del ecosistema SerakDepMS, con informaciÃ³n clara y accesible para todos los miembros.",
+            tech: "HTML • CSS • JavaScript • Web UI • Programming Community",
+            desc: "División oficial de programación de SerakDepMS Studios. Un ecosistema donde desarrolladores de todos los niveles aprenden, colaboran y construyen juntos, con divisiones especializadas por área técnica.",
+            challenge: "Crear un espacio digital accesible y profesional que centralice la información de la comunidad de programación, sus normas, sanciones y divisiones técnicas.",
+            approach: "Diseñamos una plataforma web responsiva con secciones claras para normas, sanciones progresivas, divisiones por lenguaje/área y un sistema de FAQ interactivo para resolver dudas frecuentes.",
+            outcome: "Un sitio web oficial que posiciona a Serakdep-MS-Devs-Official como la división de programación de referencia dentro del ecosistema SerakDepMS, con información clara y accesible para todos los miembros.",
             features: [
-                "8 divisiones tÃ©cnicas: Python, Web, Backend, Mobile, Game Dev, Ciberseguridad, IA y Algoritmos.",
+                "8 divisiones técnicas: Python, Web, Backend, Mobile, Game Dev, Ciberseguridad, IA y Algoritmos.",
                 "Sistema de sanciones progresivas de 4 niveles adaptado al contexto de la comunidad.",
-                "DiseÃ±o responsivo optimizado para mÃ³viles con navegaciÃ³n fluida.",
-                "SecciÃ³n de FAQ interactiva y reglamento completo de convivencia."
+                "Diseño responsivo optimizado para móviles con navegación fluida.",
+                "Sección de FAQ interactiva y reglamento completo de convivencia."
             ],
             github: "https://github.com/SerakDepMS/Serakdep-MS-Devs-Official"
         },
         terminal: {
             title: "Crypt-Terminal",
-            tech: "HTML â€¢ CSS â€¢ JavaScript â€¢ CLI Simulation â€¢ Cryptography",
+            tech: "HTML • CSS • JavaScript • CLI Simulation • Cryptography",
             desc: "Interactive web terminal simulation focused on cryptographic tools and command processing.",
             challenge: "Bring terminal and cryptography concepts into an interactive and understandable web interface.",
             approach: "Developed a custom command interpreter with client-side logic and cryptographic validation modules.",
@@ -224,7 +224,7 @@
         },
         social: {
             title: "red-social-beta",
-            tech: "HTML â€¢ CSS â€¢ JavaScript â€¢ Web Prototyping â€¢ Programming Community",
+            tech: "HTML • CSS • JavaScript • Web Prototyping • Programming Community",
             desc: "Experimental social network prototype designed to explore user interaction patterns and client-side data flows for programmer communities.",
             challenge: "Explore the essential flows of a social network for developers before committing to a final architecture.",
             approach: "Prototyped posts, profiles, and interaction components with an initially scalable structure.",
@@ -250,7 +250,7 @@
         const data = projectData[projectKey];
 
         if (data) {
-            // Generar botÃ³n de GitHub condicionalmente
+            // Generar botón de GitHub condicionalmente
             const githubButton = data.github
                 ? `<a href="${data.github}" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fa-brands fa-github"></i> View repository</a>`
                 : '';
