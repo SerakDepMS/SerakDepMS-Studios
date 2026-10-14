@@ -180,7 +180,7 @@
             github: null // No hay repositorio público porque está en Hostinger
         },
         gamerCommunity: {
-            title: "SerakDepMS Ecosystem Base",
+            title: "SerakDepMS Studios Ecosystem Base",
             tech: "HTML • CSS • JavaScript • Web UI • Gaming Community",
             desc: "Official web platform focused on community management, digital interaction, and community activities for the gamer ecosystem.",
             challenge: "Organize a gamer community's digital presence into an accessible and easy-to-navigate experience.",
@@ -194,12 +194,12 @@
             github: "https://github.com/SerakDepMS/Serakdep-MS-Clan-Official"
         },
         devs: {
-            title: "Serakdep-MS-Devs-Official",
+            title: "SerakDepMS Studios — Comunidad Devs",
             tech: "HTML • CSS • JavaScript • Web UI • Programming Community",
             desc: "División oficial de programación de SerakDepMS Studios. Un ecosistema donde desarrolladores de todos los niveles aprenden, colaboran y construyen juntos, con divisiones especializadas por área técnica.",
             challenge: "Crear un espacio digital accesible y profesional que centralice la información de la comunidad de programación, sus normas, sanciones y divisiones técnicas.",
             approach: "Diseñamos una plataforma web responsiva con secciones claras para normas, sanciones progresivas, divisiones por lenguaje/área y un sistema de FAQ interactivo para resolver dudas frecuentes.",
-            outcome: "Un sitio web oficial que posiciona a Serakdep-MS-Devs-Official como la división de programación de referencia dentro del ecosistema SerakDepMS, con información clara y accesible para todos los miembros.",
+            outcome: "Un sitio web oficial que posiciona a SerakDepMS Studios — Comunidad Devs como una comunidad de programación de referencia, con información clara y accesible para todos los miembros.",
             features: [
                 "8 divisiones técnicas: Python, Web, Backend, Mobile, Game Dev, Ciberseguridad, IA y Algoritmos.",
                 "Sistema de sanciones progresivas de 4 niveles adaptado al contexto de la comunidad.",

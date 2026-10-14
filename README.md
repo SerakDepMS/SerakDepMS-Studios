@@ -1,36 +1,37 @@
-# SerakDepMS — Empresa Matriz del Ecosistema Digital
+# SerakDepMS Studios — Portafolio Corporativo
 
-<p align="center">
-  <img src="assets/images/profile.gif" alt="SerakDepMS Ecosystem" width="120" style="border-radius: 50%;">
-</p>
+**Significado oficial:** Serak Digital Mastery Studios Solutions
+**Siglas:** SDMSS · **Abreviatura visual:** SDMS
+**Propietaria del proyecto:** SerakDepMS Studios
 
-SerakDepMS es la empresa matriz del ecosistema digital. No es una comunidad ni una marca de comunidad; es la estructura corporativa que impulsa desarrollo web, arquitectura, ciberseguridad y la gestión de los ecosistemas digitales que apoyan a las comunidades oficiales de **SerakDepMS Studios**.
+SerakDepMS Studios es una empresa tecnológica que construye ecosistemas digitales seguros y escalables. Este portafolio presenta sus servicios, proyectos y comunidades oficiales.
 
 ## Los tres pilares
 
-1. **Web Development & Technology**
-   Bajo el sello técnico de **SerakDepMS**. Arquitectura web, soluciones empresariales escalables, APIs de alto rendimiento, ciberseguridad y DevSecOps.
+1. **Desarrollo web y tecnología**
+   Arquitectura web, soluciones empresariales escalables, APIs de alto rendimiento, ciberseguridad y DevSecOps.
 
-2. **Game Development & Gamer Communities**
-   Operado bajo la denominación **SerakDepMS Studios**. Creación de videojuegos, herramientas para eSports y gestión de las **12 divisiones Gamer** de la comunidad oficial.
+2. **Desarrollo de videojuegos y comunidad Gamer**
+   Creación de videojuegos y herramientas para eSports, además de la gestión de las 12 divisiones Gamer de la comunidad oficial.
 
-3. **Programming Communities**
-   Operado bajo la denominación **SerakDepMS Studios**. Construcción y gestión de las **8 divisiones técnicas** de la comunidad Devs, eventos, hackathons y proyectos colaborativos.
+3. **Comunidades de programación**
+   Gestión de las 8 divisiones técnicas de la comunidad Devs, eventos, hackathons y proyectos colaborativos.
 
 ## Enlaces oficiales
 
-- **Portafolio:** [serakdepms.github.io/SerakDepMS-Studios](https://serakdepms.github.io/SerakDepMS-Studios/)
-- **Comunidad Gamer:** [serakdepms.github.io/Serakdep-MS-Clan-Official](https://serakdepms.github.io/Serakdep-MS-Clan-Official/)
-- **Comunidad Devs:** [serakdepms.github.io/Serakdep-MS-Devs-Official](https://serakdepms.github.io/Serakdep-MS-Devs-Official/)
+- **Portafolio:** [SerakDepMS Studios](https://serakdepms.github.io/SerakDepMS-Studios/)
+- **Comunidad Gamer:** [SerakDepMS Studios — Comunidad Gamer](https://serakdepms.github.io/Serakdep-MS-Clan-Official/)
+- **Comunidad Devs:** [SerakDepMS Studios — Comunidad Devs](https://serakdepms.github.io/Serakdep-MS-Devs-Official/)
 - **GitHub:** [github.com/SerakDepMS](https://github.com/SerakDepMS)
+- **DevKit:** [serakdepms-devkit](https://github.com/SerakDepMS/serakdepms-devkit)
 - **WhatsApp:** [wa.me/SerakDepMS](https://wa.me/SerakDepMS)
 
-## Descripción oficial
+## Perfil corporativo
 
-**Full Stack Architect & Cybersecurity Expert. 130+ OS mastery. Impacting web dev, game dev & gamer communities, and programming communities.**
+SerakDepMS Studios ofrece desarrollo Full Stack, arquitectura de software, ciberseguridad, DevSecOps, desarrollo de videojuegos y gestión de comunidades Gamer y Devs.
 
-## Copyright
+## Propiedad y copyright
 
-© 2026 SerakDepMS. All rights reserved.
+Este portafolio y sus materiales son propiedad de **SerakDepMS Studios**. Consulte [LICENSE](LICENSE) para conocer los términos completos.
 
-Este repositorio, sus materiales, arquitecturas, diseños, textos, activos digitales y proyectos del ecosistema están protegidos por derechos de propiedad de **SerakDepMS** y cubren también a las comunidades operadas bajo **SerakDepMS Studios**. Consulte [LICENSE](LICENSE) para conocer los términos completos.
+© 2026 SerakDepMS Studios · Serak Digital Mastery Studios Solutions

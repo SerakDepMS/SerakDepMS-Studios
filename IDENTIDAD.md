@@ -1,30 +1,31 @@
-﻿# Identidad Corporativa de SerakDepMS
+﻿# Identidad Corporativa de SerakDepMS Studios
 
-## 1. Diferenciación oficial
+## 1. Identidad oficial
 
-**SerakDepMS** es la empresa matriz. Es la entidad responsable del desarrollo web, la arquitectura digital, la ciberseguridad, los servicios profesionales y la estrategia tecnológica del ecosistema.
+- **Nombre comercial:** SerakDepMS Studios
+- **Significado oficial:** Serak Digital Mastery Studios Solutions
+- **Siglas:** SDMSS
+- **Abreviatura visual:** SDMS
+- **Propietaria del portafolio:** SerakDepMS Studios
 
-**SerakDepMS Studios** es la denominación oficial de las comunidades gamer y devs. No reemplaza a la empresa matriz; es el entorno operativo de las comunidades y sus divisiones oficiales.
+SerakDepMS Studios es una empresa tecnológica responsable del desarrollo web, la arquitectura digital, la ciberseguridad, los servicios profesionales y la estrategia tecnológica de sus ecosistemas digitales.
 
-### Copyright diferenciado
-
-- **© 2026 SerakDepMS** — para la empresa matriz
-- **© 2026 SerakDepMS Studios** — para las comunidades y sus plataformas
+**Copyright oficial:** © 2026 SerakDepMS Studios · Serak Digital Mastery Studios Solutions
 
 ## 2. Tres pilares del ecosistema
 
 ### Pilar 1 — Web Development & Technology
-Bajo el sello técnico de **SerakDepMS**. Arquitectura web, soluciones empresariales escalables, APIs de alto rendimiento, ciberseguridad y DevSecOps.
+Arquitectura web, soluciones empresariales escalables, APIs de alto rendimiento, ciberseguridad y DevSecOps.
 
 ### Pilar 2 — Game Development & Gamer Communities
-Operado bajo la denominación **SerakDepMS Studios**. Creación de videojuegos, herramientas para eSports y gestión de las **12 divisiones Gamer** de la comunidad oficial.
+Creación de videojuegos, herramientas para eSports y gestión de las 12 divisiones Gamer de la comunidad oficial.
 
 ### Pilar 3 — Programming Communities
-Operado bajo la denominación **SerakDepMS Studios**. Construcción y gestión de las **8 divisiones técnicas** de la comunidad Devs, eventos, hackathons y proyectos colaborativos.
+Construcción y gestión de las 8 divisiones técnicas de la comunidad Devs, eventos, hackathons y proyectos colaborativos.
 
 ## 3. Comunidades oficiales
 
-### Comunidad Gamer — Serakdep-MS-Clan-Official
+### Comunidad Gamer
 **12 divisiones oficiales**
 
 - Roblox
@@ -42,7 +43,7 @@ Operado bajo la denominación **SerakDepMS Studios**. Construcción y gestión d
 
 Sitio oficial: https://serakdepms.github.io/Serakdep-MS-Clan-Official/
 
-### Comunidad Devs — Serakdep-MS-Devs-Official
+### Comunidad Devs
 **8 divisiones técnicas oficiales**
 
 - Python & Data Science
@@ -62,6 +63,7 @@ Sitio oficial: https://serakdepms.github.io/Serakdep-MS-Devs-Official/
 - Comunidad Gamer: https://serakdepms.github.io/Serakdep-MS-Clan-Official/
 - Comunidad Devs: https://serakdepms.github.io/Serakdep-MS-Devs-Official/
 - GitHub: https://github.com/SerakDepMS
+- DevKit: https://github.com/SerakDepMS/serakdepms-devkit
 - WhatsApp: https://wa.me/SerakDepMS
 
 ## 5. Política de edad y comunidades
